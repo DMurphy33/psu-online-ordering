@@ -11,4 +11,3 @@ class Hub extends Component {
 }
 
 export default Hub;
-
