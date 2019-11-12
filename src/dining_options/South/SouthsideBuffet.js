@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class East extends Component {
+class SouthsideBuffet extends Component {
     render() {
-        return(
+        return (
             <div>
                 <h1>
-                    East
+                    SouthsideBuffet
                 </h1>
             </div>
         )
     }
 }
 
-export default East;
+export default SouthsideBuffet;
