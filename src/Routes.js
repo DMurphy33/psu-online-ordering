@@ -6,6 +6,7 @@ import South from './locations/South';
 import East from './locations/East';
 import West from './locations/West';
 import Hub from './locations/Hub';
+import Checkout from './Checkout';
 
 const Routes = () => (
     <Switch>
@@ -15,6 +16,7 @@ const Routes = () => (
         <Route exact path='/East' component={East} />
         <Route exact path='/West' component={West} />
         <Route exact path='/HUB' component={Hub} />
+        <Route exact path='/Checkout' component={Checkout} />
     </Switch>
 );
 

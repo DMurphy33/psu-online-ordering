@@ -1,0 +1,45 @@
+.app {
+    width: 308px;
+    height: 548px;
+    /* margin-left: 5px;
+    margin-top: 15px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    background-color: white;
+}
+
+.phone {
+    width: 318px;
+    height: 578px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.app-wrapper {
+    height: 100% !important;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(146, 150, 156);
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.nav {
+    background-color: rgb(4, 30, 66);
+}
+
+.nav-text {
+    color: white;
+    font-size: 18px;
+}
