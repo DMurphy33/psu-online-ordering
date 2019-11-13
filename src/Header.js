@@ -7,7 +7,7 @@ import './App.css';
 class Header extends Component {
     render() {
         return(
-            <Navbar className='nav'>
+            <Navbar sticky='top' className='nav'>
                 <NavbarBrand className='nav-text' href='/'>PSU Online Ordering</NavbarBrand>
                 <a href='/Checkout'>
                     <FontAwesomeIcon className='nav-text' icon={faShoppingCart} />

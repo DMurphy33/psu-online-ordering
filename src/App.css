@@ -1,14 +1,16 @@
 .app {
     width: 308px;
     height: 548px;
-    /* margin-left: 5px;
-    margin-top: 15px; */
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: auto;
     background-color: white;
+}
+
+.app::-webkit-scrollbar { 
+    display: none;
 }
 
 .phone {
