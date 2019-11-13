@@ -60,6 +60,7 @@ import SisuCoffeeBar from './dining_options/West/SisuCoffeeBar';
 import SisuConvenienceStore from './dining_options/West/SisuConvenienceStore';
 import TheWestWing from './dining_options/West/TheWestWing';
 import WaringSquare from './dining_options/West/WaringSquare';
+import Checkout from './Checkout';
 
 const Routes = () => (
     <Switch>
@@ -123,6 +124,7 @@ const Routes = () => (
         <Route exact path='/West/SisuConvenienceStore' component={SisuConvenienceStore} />
         <Route exact path='/West/TheWestWing' component={TheWestWing} />
         <Route exact path='/West/WaringSquare' component={WaringSquare} />
+        <Route exact path='/Checkout' component={Checkout} />
     </Switch>
 );
 
