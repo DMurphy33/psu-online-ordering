@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem } from 'reactstrap'
+import { ListGroup, ListGroupItem, Form, FormGroup, Label, Input } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusCircle, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import '../../App.css';
@@ -250,6 +250,111 @@ class WaringSquare extends Component {
                         </span>
                         <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
                     </ListGroupItem>
+                </ListGroup>
+                <h5>
+                    Drinks
+                </h5>
+                <ListGroup>
+                    <Form>
+                        <FormGroup tag="fieldset">
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Whole Milk
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                2% Milk
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Skim Milk
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Chocolate Milk
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Water
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Pepsi
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Diet Pepsi
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Root Beer
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Ginger Ale
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Dr. Pepper
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Sierra Mist
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Mountain Dew
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Orange Juice
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Apple Juice
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Cranberry Juice
+                            </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                            <Label check>
+                                <Input type="radio" name="drink-selection" />{' '}
+                                Lemonade
+                            </Label>
+                            </FormGroup>
+                        </FormGroup>
+                    </Form>
                 </ListGroup>
             </div>
         )

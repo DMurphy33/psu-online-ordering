@@ -105,23 +105,23 @@ class TheWestWing extends Component {
                             <FormGroup>
                                 <Label>Toppings</Label>
                                 <div>
-                                    <CustomInput type="checkbox" id="lettuce" label="Lettuce" />
-                                    <CustomInput type="checkbox" id="tomato" label="Tomato" />
-                                    <CustomInput type="checkbox" id="onion" label="Onion" />
-                                    <CustomInput type="checkbox" id="pickles" label="Pickles" />
-                                    <CustomInput type="checkbox" id="peppers" label="Peppers" />
-                                    <CustomInput type="checkbox" id="oregano" label="Oregano" />
+                                    <CustomInput type="checkbox" id="grill-lettuce" label="Lettuce" />
+                                    <CustomInput type="checkbox" id="grill-tomato" label="Tomato" />
+                                    <CustomInput type="checkbox" id="grill-onion" label="Onion" />
+                                    <CustomInput type="checkbox" id="grill-pickles" label="Pickles" />
+                                    <CustomInput type="checkbox" id="grill-peppers" label="Peppers" />
+                                    <CustomInput type="checkbox" id="grill-oregano" label="Oregano" />
                                 </div>
                             </FormGroup>
                             <FormGroup>
                                 <Label>Sauces</Label>
                                 <div>
-                                    <CustomInput type="checkbox" id="mayo" label="Mayo" />
-                                    <CustomInput type="checkbox" id="ketchup" label="Ketchup" />
-                                    <CustomInput type="checkbox" id="ranch" label="Ranch" />
-                                    <CustomInput type="checkbox" id="bbq" label="BBQ Sauce" />
-                                    <CustomInput type="checkbox" id="hot-sauce" label="Hot Sauce" />
-                                    <CustomInput type="checkbox" id="italian" label="Italian Dressing" />
+                                    <CustomInput type="checkbox" id="grill-mayo" label="Mayo" />
+                                    <CustomInput type="checkbox" id="grill-ketchup" label="Ketchup" />
+                                    <CustomInput type="checkbox" id="grill-ranch" label="Ranch" />
+                                    <CustomInput type="checkbox" id="grill-bbq" label="BBQ Sauce" />
+                                    <CustomInput type="checkbox" id="grill-hot-sauce" label="Hot Sauce" />
+                                    <CustomInput type="checkbox" id="grill-italian" label="Italian Dressing" />
                                 </div>
                             </FormGroup>
                         </Form>
@@ -232,35 +232,88 @@ class TheWestWing extends Component {
                             <FormGroup>
                                 <Label>Cheese</Label>
                                 <div>
-                                    <CustomInput type="checkbox" id="american" label="American" />
-                                    <CustomInput type="checkbox" id="provolone" label="Provolone" />
-                                    <CustomInput type="checkbox" id="cheddar" label="Cheddar" />
-                                    <CustomInput type="checkbox" id="pepperjack" label="Pepperjack" />
+                                    <CustomInput type="checkbox" id="deli-american" label="American" />
+                                    <CustomInput type="checkbox" id="deli-provolone" label="Provolone" />
+                                    <CustomInput type="checkbox" id="deli-cheddar" label="Cheddar" />
+                                    <CustomInput type="checkbox" id="deli-pepperjack" label="Pepperjack" />
                                 </div>
                             </FormGroup>
                             <FormGroup>
                                 <Label>Toppings</Label>
                                 <div>
-                                    <CustomInput type="checkbox" id="lettuce" label="Lettuce" />
-                                    <CustomInput type="checkbox" id="tomato" label="Tomato" />
-                                    <CustomInput type="checkbox" id="onion" label="Onion" />
-                                    <CustomInput type="checkbox" id="pickles" label="Pickles" />
-                                    <CustomInput type="checkbox" id="peppers" label="Peppers" />
-                                    <CustomInput type="checkbox" id="oregano" label="Oregano" />
+                                    <CustomInput type="checkbox" id="deli-lettuce" label="Lettuce" />
+                                    <CustomInput type="checkbox" id="deli-tomato" label="Tomato" />
+                                    <CustomInput type="checkbox" id="deli-onion" label="Onion" />
+                                    <CustomInput type="checkbox" id="deli-pickles" label="Pickles" />
+                                    <CustomInput type="checkbox" id="deli-peppers" label="Peppers" />
+                                    <CustomInput type="checkbox" id="deli-oregano" label="Oregano" />
                                 </div>
                             </FormGroup>
                             <FormGroup>
                                 <Label>Sauces</Label>
                                 <div>
-                                    <CustomInput type="checkbox" id="mayo" label="Mayo" />
-                                    <CustomInput type="checkbox" id="ketchup" label="Ketchup" />
-                                    <CustomInput type="checkbox" id="ranch" label="Ranch" />
-                                    <CustomInput type="checkbox" id="bbq" label="BBQ Sauce" />
-                                    <CustomInput type="checkbox" id="hot-sauce" label="Hot Sauce" />
-                                    <CustomInput type="checkbox" id="italian" label="Italian Dressing" />
+                                    <CustomInput type="checkbox" id="deli-mayo" label="Mayo" />
+                                    <CustomInput type="checkbox" id="deli-ketchup" label="Ketchup" />
+                                    <CustomInput type="checkbox" id="deli-ranch" label="Ranch" />
+                                    <CustomInput type="checkbox" id="deli-bbq" label="BBQ Sauce" />
+                                    <CustomInput type="checkbox" id="deli-hot-sauce" label="Hot Sauce" />
+                                    <CustomInput type="checkbox" id="deli-italian" label="Italian Dressing" />
                                 </div>
                             </FormGroup>
                         </Form>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                </ListGroup>
+                <h5>
+                    Drinks
+                </h5>
+                <ListGroup>
+                    <ListGroupItem>
+                        <span>
+                            Water
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Pepsi
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Diet Pepsi
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Root Beer
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Dr. Pepper
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Ginger Ale
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Mountain Dew
+                        </span>
+                        <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <span>
+                            Sierra Mist
+                        </span>
                         <FontAwesomeIcon className='add-item-plus' icon={faPlusCircle} />
                     </ListGroupItem>
                 </ListGroup>
