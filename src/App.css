@@ -45,3 +45,18 @@ html, body, #root {
     color: white;
     font-size: 18px;
 }
+
+.add-item-plus {
+    float: right;
+}
+
+.section-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.back-button{
+    text-align:left;
+    color: black !important;
+}
+
