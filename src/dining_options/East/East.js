@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import '../../App.css';
 
 class East extends Component {
     render() {
         return(
             <div>
+                <span>
+                    <a className='back-button' href='/'>
+                        <FontAwesomeIcon icon={faChevronLeft} />
+                        Locations
+                        <FontAwesomeIcon icon={faChevronLeft} />
+                    </a>
+                </span>
+                <h4 className='section-title'>
+                    East
+                </h4>
                 <ListGroup>
                     <ListGroupItem><a href='/East/Bowls'>Bowls</a></ListGroupItem>
                     <ListGroupItem><a href='/East/ChefsTable'>Chef's Table</a></ListGroupItem>
