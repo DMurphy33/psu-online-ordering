@@ -16,9 +16,7 @@ class Home extends Component {
                     <ListGroupItem><a href='/West'>West</a></ListGroupItem>
                     <ListGroupItem><a href='/Pollock'>Pollock</a></ListGroupItem>
                     <ListGroupItem><a href='/Hub'>HUB Dining</a></ListGroupItem>
-                    <ListGroupItem><a href='/Panera'>Panera</a></ListGroupItem>
                     <ListGroupItem><a href='/CafeLaura'>Cafe Laura</a></ListGroupItem>
-                    <ListGroupItem><a href='/PaternoStarbucks'>Starbucks at Paterno Library</a></ListGroupItem>
                     <ListGroupItem><a href='/Saxbys'>Saxbys</a></ListGroupItem>
                 </ListGroup>
             </div>

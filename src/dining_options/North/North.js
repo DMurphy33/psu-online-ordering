@@ -19,10 +19,6 @@ class North extends Component {
                     North
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><a href='/North/BluespoonMarket'>BluespoonMarket</a></ListGroupItem>
-                    <ListGroupItem><a href='/North/Deli'>Deli</a></ListGroupItem>
-                    <ListGroupItem><a href='/North/Grill'>Grill</a></ListGroupItem>
-                    <ListGroupItem><a href='/North/Salad'>Salad</a></ListGroupItem>
                     <ListGroupItem><a href='/North/Northside'>Northside</a></ListGroupItem>
                     <ListGroupItem><a href='/North/WorldBeat'>World Beat</a></ListGroupItem>
                 </ListGroup>
