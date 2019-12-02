@@ -2,6 +2,7 @@ import  React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 
 class North extends Component {
@@ -9,18 +10,18 @@ class North extends Component {
         return(
             <div>
                 <span>
-                    <a className='back-button' href='/'>
+                    <Link className='back-button' to='/'>
                         <FontAwesomeIcon icon={faChevronLeft} />
                         Locations
                         <FontAwesomeIcon icon={faChevronLeft} />
-                    </a>
+                    </Link>
                 </span>
                 <h4 className='section-title'>
                     North
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><a href='/North/Northside'>Northside</a></ListGroupItem>
-                    <ListGroupItem><a href='/North/WorldBeat'>World Beat</a></ListGroupItem>
+                    <ListGroupItem><Link to='/North/Northside'>Northside</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/North/WorldBeat'>World Beat</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )

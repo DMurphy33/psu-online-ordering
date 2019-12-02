@@ -50,6 +50,10 @@ html, body, #root {
     float: right;
 }
 
+.add-item-plus:hover {
+    cursor: pointer;
+}
+
 .section-title {
     text-align: center;
     text-decoration: underline;
@@ -60,3 +64,10 @@ html, body, #root {
     color: black !important;
 }
 
+.page-description {
+    margin: 5px;
+}
+
+.buffet-cart-button {
+    text-align: center;
+}

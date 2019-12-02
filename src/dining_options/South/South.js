@@ -2,6 +2,7 @@ import  React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 
 class South extends Component {
@@ -9,23 +10,23 @@ class South extends Component {
         return(
             <div>
                 <span>
-                    <a className='back-button' href='/'>
+                    <Link className='back-button' to='/'>
                         <FontAwesomeIcon icon={faChevronLeft} />
                         Locations
                         <FontAwesomeIcon icon={faChevronLeft} />
-                    </a>
+                    </Link>
                 </span>
                 <h4 className='section-title'>
                     South
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><a href='/South/FrescoYCaliente'>Fresco Y Caliente</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/HotSteelAndNoodles'>Hot Steel And Noodles</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/InAPickle'>In A Pickle</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/PiattoFelice'>Piatto Felice</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/RediferCityGrill'>Redifer City Grill</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/SouthsideBuffet'>Southside Buffet</a></ListGroupItem>
-                    <ListGroupItem><a href='/South/UrbanGarden'>Urban Garden</a></ListGroupItem>
+                    <ListGroupItem><Link to='/South/FrescoYCaliente'>Fresco Y Caliente</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/HotSteelAndNoodles'>Hot Steel And Noodles</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/InAPickle'>In A Pickle</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/PiattoFelice'>Piatto Felice</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/RediferCityGrill'>Redifer City Grill</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/SouthsideBuffet'>Southside Buffet</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South/UrbanGarden'>Urban Garden</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )
