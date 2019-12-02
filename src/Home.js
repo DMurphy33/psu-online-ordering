@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 class Home extends Component {
@@ -10,14 +11,14 @@ class Home extends Component {
                     Locations
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><a href='/North'>North</a></ListGroupItem>
-                    <ListGroupItem><a href='/South'>South</a></ListGroupItem>
-                    <ListGroupItem><a href='/East'>East</a></ListGroupItem>
-                    <ListGroupItem><a href='/West'>West</a></ListGroupItem>
-                    <ListGroupItem><a href='/Pollock'>Pollock</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub'>HUB Dining</a></ListGroupItem>
-                    <ListGroupItem><a href='/CafeLaura'>Cafe Laura</a></ListGroupItem>
-                    <ListGroupItem><a href='/Saxbys'>Saxbys</a></ListGroupItem>
+                    <ListGroupItem><Link to='/North'>North</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/South'>South</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/East'>East</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/West'>West</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Pollock'>Pollock</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub'>HUB Dining</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/CafeLaura'>Cafe Laura</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Saxbys'>Saxbys</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )

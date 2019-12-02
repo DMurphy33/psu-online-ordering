@@ -2,6 +2,7 @@ import  React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 
 class Hub extends Component {
@@ -9,23 +10,23 @@ class Hub extends Component {
         return(
             <div>
                 <span>
-                    <a className='back-button' href='/'>
+                    <Link className='back-button' to='/'>
                         <FontAwesomeIcon icon={faChevronLeft} />
                         Locations
                         <FontAwesomeIcon icon={faChevronLeft} />
-                    </a>
+                    </Link>
                 </span>
                 <h4 className='section-title'>
                     HUB Dining
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><a href='/Hub/BurgerKing'>Burger King</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/ChickFilA'>Chick-Fil-A</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/JambaJuice'>Jamba Juice</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/McCalistersDeli'>McCalister's Deli</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/PandaExpress'>Panda Express</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/Sbarro'>Sbarro</a></ListGroupItem>
-                    <ListGroupItem><a href='/Hub/Starbucks'>Starbucks</a></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/BurgerKing'>Burger King</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/ChickFilA'>Chick-Fil-A</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/JambaJuice'>Jamba Juice</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/McCalistersDeli'>McCalister's Deli</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/PandaExpress'>Panda Express</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/Sbarro'>Sbarro</Link></ListGroupItem>
+                    <ListGroupItem><Link to='/Hub/Starbucks'>Starbucks</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )
