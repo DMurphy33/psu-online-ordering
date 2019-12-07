@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem, CustomInput, Form, FormGroup, Label, Input } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -12,6 +12,7 @@ class TheWestWing extends Component {
         super(props);
         this.state = {
             cheesesteak: {
+                type: 'Cheesesteak',
                 bread: null,
                 meat: null,
                 cheese: null,
@@ -19,6 +20,7 @@ class TheWestWing extends Component {
                 sauces: [],
             },  
             subsAndWraps: {
+                type: 'Sub',
                 bread: null,
                 meat: [],
                 cheese: [],
@@ -111,6 +113,12 @@ class TheWestWing extends Component {
     handleSubsAndWrapsBreadSelection = (evt) => {
         const newSubsAndWrapsState = {...this.state.subsAndWraps};
         newSubsAndWrapsState.bread = evt.target.value;
+        if (evt.target.value.slice(-4) === 'Wrap') {
+            newSubsAndWrapsState.type = 'Wrap';
+        }
+        if (evt.target.value.slice(-6) === 'Panini') {
+            newSubsAndWrapsState.type = 'Panini';
+        }
         this.setState({subsAndWraps: newSubsAndWrapsState});
     }
 

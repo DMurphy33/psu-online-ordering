@@ -71,3 +71,16 @@ html, body, #root {
 .buffet-cart-button {
     text-align: center;
 }
+
+.item-price {
+    float: right;
+    font-weight: bold;
+}
+
+.removal-x:hover {
+    cursor: pointer;
+}
+
+.removal-x {
+    color: red;
+}

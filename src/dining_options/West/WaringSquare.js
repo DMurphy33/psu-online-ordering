@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem, Form, FormGroup, Label, Input, Button } from 'reactstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { ListGroup, ListGroupItem, Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle, faChevronLeft, faMinusCircle } from '@fortawesome/free-solid-svg-icons';
 import { connect } from 'react-redux';
 import { updateCart } from '../../actions';
