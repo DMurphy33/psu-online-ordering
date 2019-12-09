@@ -1,17 +1,17 @@
 import React from 'react';
-import { ListGroup, ListGroupItem } from 'reactstrap';
 import './App.css';
+import Routes from './Routes';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <ListGroup>
-      <ListGroupItem>Cras justo odio</ListGroupItem>
-      <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-      <ListGroupItem>Morbi leo risus</ListGroupItem>
-      <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
-      <ListGroupItem>Vestibulum at eros</ListGroupItem>
-    </ListGroup>
+    <div className='app-wrapper'>
+      <div className='phone'>
+        <div className="app">
+          <Header />
+          <Routes />
+        </div>
+      </div>
     </div>
   );
 }
