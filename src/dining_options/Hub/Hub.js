@@ -20,13 +20,13 @@ class Hub extends Component {
                     HUB Dining
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><Link to='/Hub/BurgerKing'>Burger King</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/ChickFilA'>Chick-Fil-A</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/JambaJuice'>Jamba Juice</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/McCalistersDeli'>McCalister's Deli</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/PandaExpress'>Panda Express</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/Sbarro'>Sbarro</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub/Starbucks'>Starbucks</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/BurgerKing'>Burger King</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/ChickFilA'>Chick-Fil-A</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/JambaJuice'>Jamba Juice</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/McCalistersDeli'>McCalister's Deli</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/PandaExpress'>Panda Express</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/Sbarro'>Sbarro</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub/Starbucks'>Starbucks</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )
