@@ -11,14 +11,14 @@ class Home extends Component {
                     Locations
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><Link to='/North'>North</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South'>South</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/East'>East</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/West'>West</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Pollock'>Pollock</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Hub'>HUB Dining</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/CafeLaura'>Cafe Laura</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/Saxbys'>Saxbys</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/North'>North</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South'>South</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/East'>East</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/West'>West</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Pollock'>Pollock</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Hub'>HUB Dining</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/CafeLaura'>Cafe Laura</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/Saxbys'>Saxbys</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )

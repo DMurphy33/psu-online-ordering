@@ -20,8 +20,8 @@ class North extends Component {
                     North
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><Link to='/North/Northside'>Northside</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/North/WorldBeat'>World Beat</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/North/Northside'>Northside</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/North/WorldBeat'>World Beat</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )

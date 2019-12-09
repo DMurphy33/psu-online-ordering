@@ -20,13 +20,13 @@ class South extends Component {
                     South
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><Link to='/South/FrescoYCaliente'>Fresco Y Caliente</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/HotSteelAndNoodles'>Hot Steel And Noodles</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/InAPickle'>In A Pickle</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/PiattoFelice'>Piatto Felice</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/RediferCityGrill'>Redifer City Grill</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/SouthsideBuffet'>Southside Buffet</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/South/UrbanGarden'>Urban Garden</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/FrescoYCaliente'>Fresco Y Caliente</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/HotSteelAndNoodles'>Hot Steel And Noodles</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/InAPickle'>In A Pickle</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/PiattoFelice'>Piatto Felice</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/RediferCityGrill'>Redifer City Grill</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/SouthsideBuffet'>Southside Buffet</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/South/UrbanGarden'>Urban Garden</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )

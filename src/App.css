@@ -54,6 +54,10 @@ html, body, #root {
     cursor: pointer;
 }
 
+.add-item-plus:active {
+    color: green;
+}
+
 .section-title {
     text-align: center;
     text-decoration: underline;
@@ -83,4 +87,8 @@ html, body, #root {
 
 .removal-x {
     color: red;
+}
+
+.page-navigation {
+    color: black;
 }

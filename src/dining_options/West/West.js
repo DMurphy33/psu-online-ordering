@@ -20,8 +20,8 @@ class West extends Component {
                     West
                 </h4>
                 <ListGroup>
-                    <ListGroupItem><Link to='/West/TheWestWing'>The West Wing</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/West/WaringSquare'>Waring Square</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/West/TheWestWing'>The West Wing</Link></ListGroupItem>
+                    <ListGroupItem><Link className='page-navigation' to='/West/WaringSquare'>Waring Square</Link></ListGroupItem>
                 </ListGroup>
             </div>
         )
