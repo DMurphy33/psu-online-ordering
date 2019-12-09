@@ -15,7 +15,6 @@ import EastDeli from './dining_options/East/EastDeli';
 import EastEdge from './dining_options/East/EastEdge';
 import EastPasta from './dining_options/East/EastPasta';
 import EastPizza from './dining_options/East/EastPizza';
-import EastSalad from './dining_options/East/EastSalad';
 import Flipps from './dining_options/East/Flipps';
 import Pure from './dining_options/East/Pure';
 import EastCommons from './dining_options/East/EastCommons';
@@ -57,16 +56,15 @@ const Routes = () => (
         <Route exact path='/East/Edge' component={EastEdge} />
         <Route exact path='/East/Pasta' component={EastPasta} />
         <Route exact path='/East/Pizza' component={EastPizza} />
-        <Route exact path='/East/Salad' component={EastSalad} />
         <Route exact path='/East/Flipps' component={Flipps} />
         <Route exact path='/East/Pure' component={Pure} />
-        <Route exact path='/Hub/BurgerKing' component={BurgerKing} />
-        <Route exact path='/Hub/ChickFilA' component={ChickFilA} />
-        <Route exact path='/Hub/JambaJuice' component={JambaJuice} />
-        <Route exact path='/Hub/McCalistersDeli' component={McCalistersDeli} />
-        <Route exact path='/Hub/PandaExpress' component={PandaExpress} />
-        <Route exact path='/Hub/Sbarro' component={Sbarro} />
-        <Route exact path='/Hub/Starbucks' component={Starbucks} />
+        <Route exact path='/HUB/BurgerKing' component={BurgerKing} />
+        <Route exact path='/HUB/ChickFilA' component={ChickFilA} />
+        <Route exact path='/HUB/JambaJuice' component={JambaJuice} />
+        <Route exact path='/HUB/McCalistersDeli' component={McCalistersDeli} />
+        <Route exact path='/HUB/PandaExpress' component={PandaExpress} />
+        <Route exact path='/HUB/Sbarro' component={Sbarro} />
+        <Route exact path='/HUB/Starbucks' component={Starbucks} />
         <Route exact path='/North/Northside' component={Northside} />
         <Route exact path='/North/WorldBeat' component={WorldBeat} />
         <Route exact path='/South/FrescoYCaliente' component={FrescoYCaliente} />

@@ -27,7 +27,6 @@ class East extends Component {
                     <ListGroupItem><Link to='/East/Edge'>Edge</Link></ListGroupItem>
                     <ListGroupItem><Link to='/East/Pasta'>Pasta</Link></ListGroupItem>
                     <ListGroupItem><Link to='/East/Pizza'>Pizza</Link></ListGroupItem>
-                    <ListGroupItem><Link to='/East/Salad'>Salad</Link></ListGroupItem>
                     <ListGroupItem><Link to='/East/Flipps'>Flipps</Link></ListGroupItem>
                     <ListGroupItem><Link to='/East/Pure'>Pure</Link></ListGroupItem>
                 </ListGroup>
