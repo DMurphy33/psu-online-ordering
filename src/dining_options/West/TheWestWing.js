@@ -27,7 +27,7 @@ class TheWestWing extends Component {
                 toppings: [],
                 sauces: [],
             }
-        }
+        };
     }
 
     addToCart = (item, price) => {
@@ -483,6 +483,9 @@ class TheWestWing extends Component {
                                 </div>
                             </FormGroup>
                         </Form>
+                        <div style={{fontWeight:'bold'}}>
+                            Full: $10.00, Half: $6.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.state.cheesesteak.bread.slice(0, 4) === 'Full' ?
                                 this.addToCart(this.state.cheesesteak, 10.0) :
@@ -496,6 +499,9 @@ class TheWestWing extends Component {
                         <span>
                             Chicken Tenders
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $5.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Chicken Tenders', 5.0)}
                             className='add-item-plus' 
@@ -506,6 +512,9 @@ class TheWestWing extends Component {
                         <span>
                             Fried Chicken Sandwich
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $6.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Fried Chicken Sandwich', 6.0)}
                             className='add-item-plus' 
@@ -516,6 +525,9 @@ class TheWestWing extends Component {
                         <span>
                             Fries
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $4.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Fries', 4.0)}
                             className='add-item-plus' 
@@ -526,6 +538,9 @@ class TheWestWing extends Component {
                         <span>
                             Grilled Chicken Sandwich
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $6.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Grilled Chicken Sandwich', 6.0)}
                             className='add-item-plus' 
@@ -536,6 +551,9 @@ class TheWestWing extends Component {
                         <span>
                             Mozzarella Sticks
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $4.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Mozzarella Sticks', 4.0)}
                             className='add-item-plus' 
@@ -826,6 +844,9 @@ class TheWestWing extends Component {
                                 </div>
                             </FormGroup>
                         </Form>
+                        <div style={{fontWeight:'bold'}}>
+                            Full Sub/ Wrap/ Panini: $10.00, Half: $6.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.state.subsAndWraps.bread.slice(0, 4) === 'Half' ?
                                 this.addToCart(this.state.subsAndWraps, 6.0) :
@@ -844,6 +865,9 @@ class TheWestWing extends Component {
                         <span>
                             Water
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $0.00
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Water', 0.0)}
                             className='add-item-plus' 
@@ -854,6 +878,9 @@ class TheWestWing extends Component {
                         <span>
                             Pepsi
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Pepsi', 2.5)}
                             className='add-item-plus' 
@@ -864,6 +891,9 @@ class TheWestWing extends Component {
                         <span>
                             Diet Pepsi
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Diet Pepsi', 2.5)}
                             className='add-item-plus' 
@@ -874,6 +904,9 @@ class TheWestWing extends Component {
                         <span>
                             Root Beer
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Root Beer', 2.5)}
                             className='add-item-plus' 
@@ -884,6 +917,9 @@ class TheWestWing extends Component {
                         <span>
                             Dr. Pepper
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Dr. Pepper', 2.5)}
                             className='add-item-plus' 
@@ -894,6 +930,9 @@ class TheWestWing extends Component {
                         <span>
                             Ginger Ale
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Ginger Ale', 2.5)}
                             className='add-item-plus' 
@@ -904,6 +943,9 @@ class TheWestWing extends Component {
                         <span>
                             Mountain Dew
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Mountain Dew', 2.5)}
                             className='add-item-plus' 
@@ -914,6 +956,9 @@ class TheWestWing extends Component {
                         <span>
                             Sierra Mist
                         </span>
+                        <div style={{fontWeight:'bold'}}>
+                            $2.50
+                        </div>
                         <FontAwesomeIcon 
                             onClick={() => this.addToCart('Sierra Mist', 2.5)}
                             className='add-item-plus' 

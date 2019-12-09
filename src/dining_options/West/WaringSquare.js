@@ -50,7 +50,12 @@ class WaringSquare extends Component {
                     <Button onClick={this.addToCart}>
                         Add Items to Cart
                     </Button>
-                </div>;
+                </div>
+            food.push(
+                <div style={{fontWeight:'bold', textAlign:'right'}}>
+                    $12.00
+                </div>
+            );
             food.push(addToCartButton);
             return food;
         } else {
@@ -91,7 +96,12 @@ class WaringSquare extends Component {
                     <Button onClick={this.addToCart}>
                         Add Items to Cart
                     </Button>
-                </div>;
+                </div>
+            food.push(
+                <div style={{fontWeight:'bold', textAlign:'right'}}>
+                    $12.00
+                </div>
+            );
             food.push(addToCartButton);
             return food;
         } else {
@@ -153,7 +163,7 @@ class WaringSquare extends Component {
                 <h4 className='section-title'>
                     Waring Square
                 </h4>
-                    {this.getFoodSelectionsTop()}
+                {this.getFoodSelectionsTop()}
                 <h5>
                     Grill
                 </h5>
